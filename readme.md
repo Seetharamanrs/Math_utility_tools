@@ -37,4 +37,4 @@ A Python-based console application that brings together three major mathematical
 Make sure you have Python installed. Then:
 
 ```bash
-python math_toolkit.py
+python math_toolkit.ipynb
