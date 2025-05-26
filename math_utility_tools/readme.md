@@ -5,7 +5,7 @@ A Python-based console application that brings together three major mathematical
 - 🔢 Calculator (basic operations, factorial, square root, etc.)
 - 📐 Geometry Helper (area & perimeter for shapes)
 - 📊 Statistics Toolkit (mean, median, mode, range)
-
+- 🧮 Quadratic Equation Solver
 ---
 
 ## 📁 Project Structure
@@ -29,6 +29,9 @@ A Python-based console application that brings together three major mathematical
 - Median
 - Mode
 - Range
+
+### ✅Quadratic Solver 
+- Calculates discriminant to determine root types
 
 ---
 
