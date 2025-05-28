@@ -1,8 +1,10 @@
 from calculator import calculator
-from geometry import geometry
+from geometry import geometry,geometric_sequence
 from Quadrtic_solver import quadratic_equ
 from staticstools import staticstools
 from main import main
+from arithmetic import arithmetic_sequence
+
 
 def main():
     calc=calculator()
@@ -15,8 +17,10 @@ def main():
         print("2.Geometry")
         print("3.statics tools")
         print("5.Quadratic equation")
-        print("5.Exit")
-        choice=input("Enter the choice (1-4): ")
+        print("5.Arithmetic_sequence")
+        print("6.geometric_sequence")
+        print("7.Exit")
+        choice=input("Enter the choice (1-7): ")
 
         if choice=="1":
             print("Options: add , sub, mult, div, square, fact, squareroot")
@@ -73,7 +77,20 @@ def main():
             a,b,c=map(int,input("Enter the number by commas:").split(","))
             qua=quadratic_equ(a,b,c)
             qua.equation()
-        elif choice=="5":
+        elif choice =="5":
+            a=int(input("Enter the starting number: "))
+            d=int(input("Enter the range: "))
+            n=int(input("Enter the end number: "))
+            ar=arithmetic_sequence(a,d,n)
+            ar.a_series()
+
+        elif choice=="6":
+            a=int(input("Enter the starting number: "))
+            r=int(input("Enter the range: "))
+            n=int(input("Enter the end number: "))
+            gr=geometric_sequence(a,r,n)
+            gr.g_series()
+        elif choice=="7":
             print("Thank you for using Toolkit :)")
             break
         else:
