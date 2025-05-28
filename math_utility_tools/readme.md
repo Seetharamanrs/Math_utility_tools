@@ -6,7 +6,7 @@ A Python-based console application that brings together three major mathematical
 - 📐 Geometry Helper (area & perimeter for shapes)
 - 📊 Statistics Toolkit (mean, median, mode, range)
 - 🧮 Quadratic Equation Solver
-- 📐 Geometric series,Arithmetic series
+- 📐 Geometric series,Arithmetic series, Fibonacci series
 ---
 
 ## 📁 Project Structure
