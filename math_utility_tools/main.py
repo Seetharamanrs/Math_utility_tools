@@ -4,12 +4,12 @@ from Quadrtic_solver import quadratic_equ
 from staticstools import staticstools
 from main import main
 from arithmetic import arithmetic_sequence
-
+from fibonacci import fibonacci
 
 def main():
     calc=calculator()
     geo=geometry()
-  
+    fib=fibonacci()
     while True:
 
         print("\n---Math Utility Tools---")
@@ -18,9 +18,10 @@ def main():
         print("3.statics tools")
         print("5.Quadratic equation")
         print("5.Arithmetic_sequence")
-        print("6.geometric_sequence")
-        print("7.Exit")
-        choice=input("Enter the choice (1-7): ")
+        print("6.Geometric_sequence")
+        print("7.Fibonacci_sequence")
+        print("8.Exit")
+        choice=input("Enter the choice (1-8): ")
 
         if choice=="1":
             print("Options: add , sub, mult, div, square, fact, squareroot")
@@ -91,6 +92,9 @@ def main():
             gr=geometric_sequence(a,r,n)
             gr.g_series()
         elif choice=="7":
+            a=int(input("Enter the count: "))
+            fib.fib(a)
+        elif choice=="8":
             print("Thank you for using Toolkit :)")
             break
         else:
