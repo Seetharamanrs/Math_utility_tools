@@ -16,4 +16,13 @@ class guess_number:
           print("The guess is high")
       except ValueError:
         print("Enter the valid number!!")
-    print(f"Sorry! The correct number was {self.target}.")
+    print(f"Sorry! The correct number was {self.t}.")
+  def dice_roller(self):
+    return random.randint(1,6)
+  def lottery(self,s,n):
+    a=set()
+    while len(s)<=n-1:
+      a.add(random.randint(1,s))
+    return s
+  def coin_toss(self):
+    return "Head" if random.randint(0,1)==0 else "Tail"
