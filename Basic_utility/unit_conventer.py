@@ -4,8 +4,8 @@ class unitconverter:
     def temp(self,a,b):
         b=b.lower()
         if b=="fahrenheit":
-            c=(a-32)*(5/9)
-            return round(c,2)
+            f=(a-32)*(5/9)
+            return round(f,2)
         elif b=="celsius":
             c=(a*(9/5))+32
             return round(c,2)
