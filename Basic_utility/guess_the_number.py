@@ -4,7 +4,7 @@ class guess_number:
     self.t=random.randint(1,100)
   def guess(self,n):
     print("Guess the number between 1 to 100")
-    for i in range (10):
+    for i in range (n):
       try:
         guess=int(input(f"Attempt {i+1}"))
         if guess==self.t:
@@ -21,8 +21,8 @@ class guess_number:
     return random.randint(1,6)
   def lottery(self,s,n):
     a=set()
-    while len(s)<=n-1:
+    while len(a)<=n-1:
       a.add(random.randint(1,s))
-    return s
+    return a
   def coin_toss(self):
     return "Head" if random.randint(0,1)==0 else "Tail"
