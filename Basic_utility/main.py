@@ -103,3 +103,91 @@ def sci():
         print("Results:",s.log(n,b) )
     else:
         print("Enter valid option!")
+def matrix_menu():
+    m = matrix()
+    print("\n-- Matrix Calculator --")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Manual Addition (No Numpy)")
+    print("4. Transpose")
+    ch = input("Choose operation: ")
+    def read_matrix(name):
+      r = int(input(f"Enter rows for matrix {name}: "))
+      c = int(input(f"Enter cols for matrix {name}: "))
+      print(f"Enter values row-wise for matrix {name}:")
+      return [[int(input()) for _ in range(c)] for _ in range(r)]
+    if ch in ["1", "2", "3"]:
+          a = read_matrix("A")
+          b = read_matrix("B")
+          if ch == "1":
+            print("Result:\n", m.addition(a, b))
+          elif ch == "2":
+            print("Result:\n", m.sub(a, b))
+          elif ch == "3":
+            print("Result:\n", m.addi(a, b))
+    elif ch == "4":
+      a = read_matrix("A")
+      print("Transpose:\n", m.tran(a))
+    else:
+      print("Invalid choice.")
+
+def matrix_menu():
+    m = matrix()
+    print("\n-- Matrix Calculator --")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Manual Addition (No Numpy)")
+    print("4. Transpose")
+    ch = input("Choose operation: ")
+    def read_matrix(name):
+      r = int(input(f"Enter rows for matrix {name}: "))
+      c = int(input(f"Enter cols for matrix {name}: "))
+      print(f"Enter values row-wise for matrix {name}:")
+      return [[int(input()) for _ in range(c)] for _ in range(r)]
+    if ch in ["1", "2", "3"]:
+          a = read_matrix("A")
+          b = read_matrix("B")
+          if ch == "1":
+            print("Result:\n", m.addition(a, b))
+          elif ch == "2":
+            print("Result:\n", m.sub(a, b))
+          elif ch == "3":
+            print("Result:\n", m.addi(a, b))
+    elif ch == "4":
+      a = read_matrix("A")
+      print("Transpose:\n", m.tran(a))
+    else:
+      print("Invalid choice.")
+def main():
+  while True:
+    print("\n--Main Menu--")
+    print("1.Unit Conventer")
+    print("2.Cipher tools")
+    print("3.Random games")
+    print("4.Scientific calculator")
+    print("5.Matirx calculator")
+    print("6.Age and date calculator")
+    print("0.Exit")
+    choice= input("Enter the option (0-6): ")
+    if choice=="1":
+      unit_conv()
+    elif choice=="2":
+      cipher()
+    elif choice=="3":
+      guess()
+    elif choice=="4":
+      sci()
+    elif choice=="5":
+      matrix_menu()
+    elif choice=="6":
+      dob()
+    elif choice=="0":
+      print("Exit....")
+      break
+    else:
+      print("Invalid input! Try again.")
+if __name__=="__main__":
+  main()
+
+
+
