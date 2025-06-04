@@ -51,8 +51,7 @@ Convert between:
 ```bash
 pip install python-dateutil numpy
 
----
 ```
-Let me know if you want badges (e.g. for Python version, license), screenshots, or instructions for packaging this as an installable module or EXE.
+-Let me know if you want badges (e.g. for Python version, license), screenshots, or instructions for packaging this as an installable module or EXE.
 
 Contact me: rseetharaman293@gmail.com
