@@ -5,7 +5,8 @@ A Python-based console application that brings together three major mathematical
 - 🔢 Calculator (basic operations, factorial, square root, etc.)
 - 📐 Geometry Helper (area & perimeter for shapes)
 - 📊 Statistics Toolkit (mean, median, mode, range)
-
+- 🧮 Quadratic Equation Solver
+- 📐 Geometric series,Arithmetic series, Fibonacci series
 ---
 
 ## 📁 Project Structure
@@ -30,6 +31,16 @@ A Python-based console application that brings together three major mathematical
 - Mode
 - Range
 
+### ✅Quadratic Solver 
+- Calculates discriminant to determine root types
+
+### ✅Aritmetic sequence generator 
+- Generates the arithmetic series 
+
+### ✅ Geometric sequence generator 
+- Generate the geometric series
+### ✅ Fibonnaci sequence generator 
+- Generate Fibonnaci series
 ---
 
 ## 🖥️ How to Run
@@ -37,4 +48,6 @@ A Python-based console application that brings together three major mathematical
 Make sure you have Python installed. Then:
 
 ```bash
-python math_toolkit.ipynb
+main.py
+
+math_utility_tool.ipynb version also available  
