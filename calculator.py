@@ -10,7 +10,7 @@ class calculator:
             return "Enter the valid division"
         return a/b 
     def pow(self,a):
-        return a**2
+        return round(a**2,3)
     def fact(self,a):
         if a<0:
             return "Doesn't takenegative values"
