@@ -23,7 +23,7 @@ A Python-based console application that brings together three major mathematical
 - Area and Perimeter of:
   - Circle
   - Rectangle
-  - Triangle
+  - Traingles 
 
 ### ✅ Statistics
 - Mean
