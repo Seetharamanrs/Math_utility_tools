@@ -12,8 +12,10 @@ class geometric_sequence:
     def __init__(self,a,r,n):
         self.a=a
         self.r=r
-        self.n=n
+        self.n=int(n)
     def g_series(self):
+        a=[]
         for i in range(1,self.n+1):
             tn=self.a*(self.r**(i-1))
-            print(tn,end=" ")
+            a.append(tn)
+        return a
