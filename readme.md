@@ -16,7 +16,7 @@ A Python-based console application that brings together three major mathematical
 
 ### ✅ Calculator
 - Addition, Subtraction, Multiplication, Division
-- Square, Square Root
+- Square, Square Roots 
 - Factorial
 
 ### ✅ Geometry
