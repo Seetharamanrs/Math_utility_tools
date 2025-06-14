@@ -7,9 +7,8 @@ A Python-based console application that brings together three major mathematical
 - 📊 Statistics Toolkit (mean, median, mode, range)
 - 🧮 Quadratic Equation Solver
 - 📐 Geometric series,Arithmetic series, Fibonacci series
----
+- 🌐 Streamlit-based GUI for interactive use
 
-## 📁 Project Structure
 ---
 
 ## 🚀 Features
@@ -43,11 +42,24 @@ A Python-based console application that brings together three major mathematical
 - Generate Fibonnaci series
 ---
 
-## 🖥️ How to Run
+### CLI Version
 
-Make sure you have Python installed. Then:
+1. Make sure you have Python 3 installed.
+2. Clone or download the repository.
+3. Install dependencies:
+    ```bash
+    pip install python-dateutil numpy
+    ```
+4. Run the main script:
+    ```bash
+    python main.py
+    ```
 
+### Streamlit Version
+
+To launch the GUI version using Streamlit:
 ```bash
-main.py
+streamlit run streamlit_app.py
+```
 
 math_utility_tool.ipynb version also available  
