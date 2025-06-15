@@ -113,8 +113,6 @@ def main():
         if st.button("Generate"):
             f="  ".join(str(val)for val in fb)
             st.success(f)
-    st.markdown("---")
-    st.caption("Thanks for using Math_utility_tools")
     
     
 if __name__=="__main__":
